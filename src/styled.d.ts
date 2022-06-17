@@ -1,0 +1,11 @@
+import 'styled-components';
+
+declare module 'styled-components' {
+  export interface DefaultTheme {
+    borderRadius: string;
+    color: {
+      main: string;
+      secondary: string;
+    };
+  }
+}
